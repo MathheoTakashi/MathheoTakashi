@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime e Mangá</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Mundo dos Animes e Mangás</h1>
+        <nav>
+            <ul>
+                <li><a href="#animes">Animes</a></li>
+                <li><a href="#mangas">Mangás</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="animes">
+            <h2>Animes Populares</h2>
+            <article>
+                <h3>Naruto</h3>
+                <p>Uma história sobre um jovem ninja em busca de reconhecimento e seu sonho de se tornar Hokage.</p>
+            </article>
+            <article>
+                <h3>One Piece</h3>
+                <p>A jornada de Monkey D. Luffy e sua tripulação em busca do tesouro lendário, One Piece.</p>
+            </article>
+        </section>
+        <section id="mangas">
+            <h2>Mangás Populares</h2>
+            <article>
+                <h3>Attack on Titan</h3>
+                <p>Humanidade luta pela sobrevivência contra titãs gigantes que devoram humanos.</p>
+            </article>
+            <article>
+                <h3>Death Note</h3>
+                <p>Um estudante encontra um caderno que lhe permite matar qualquer pessoa cujo nome ele escreva nele.</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Para mais informações, envie um e-mail para <a href="mailto:contato@animeemanga.com">contato@animeemanga.com</a>.</p>
+        </section>
+    </footer>
+</body>
+</html>body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5rem;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
